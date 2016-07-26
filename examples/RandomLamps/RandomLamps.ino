@@ -11,7 +11,7 @@
  */
 
 #include <TimerOne.h>
-#include "Dimmer.h"
+#include "DimmerV0.h"
 
 Dimmer dimmer;
 

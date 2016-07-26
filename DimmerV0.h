@@ -1,8 +1,7 @@
 /*
  This is the Dimmer library to control AC loads, including dimmable lamps.
  
- Copyright (c) 2015 Circuitar
- This software is released under the MIT license. See the attached LICENSE file for details.
+ This is an old version (v0.1) to work with older projects. Please look up for the newer version if nedeed.
  */
 
 #ifndef DIMMERV0_H
