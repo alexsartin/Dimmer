@@ -1,7 +1,12 @@
-Dimmer Library for Arduino
+Dimmer Library for Arduino (V0)
 ==========================
 
-This is the Arduino software library to control AC loads using triacs and a zero cross detector circuit. The library functions can be used to control the AC load power of each Triac independently, using a single zero cross circuit.
+
+### NOTE: This is an early version of the library to work with non updated older projects.
+#### Please look up for the new and improved version on Github.
+
+
+This is the Arduino software library to control AC loads using triacs and a zero cross detector circuit. The library functions use only one Object structure to control the AC load power of each Triac independently, using a single zero cross circuit.
 
 The reference circuit is based on the Triac and Zero Cross Nanoshields from Circuitar, and can be found at:
 
@@ -16,14 +21,6 @@ This library needs TimerOne library which can be found here: https://github.com/
 
 ---
 
-The following examples are provided:
-
-- **DisplayLamps**: This program transitions 3 lamps in playfull ways to show how they can be controlled. (can be extended to 10 lamps).
-- **RandomLamps**: Control 3 dimmable lamps with random values (can be extended to 10 lamps).
-- **WaveLamps**: Control 3 dimmable lamps in a wave form (can be extended to 10 lamps).
-
----
-
 Usage:
 
 Use the library functions `attachZeroCross()` and `attachTriac()` to assign each triac and the zero cross shield to the program.
@@ -33,8 +30,6 @@ To start controlling the lamps, initialize with `init()` or `initRamp()` to make
 The triacs can be controlled using the functions: `set(lamp, power)`, `on()`, `on(lamp)`, `off()`, `off(lamp)` and `toogle(lamp)`.
 
 ---
-
-Copyright (c) Circuitar Eletrônicos - 2015
 
 This software is released under an MIT license. See the attached LICENSE file for details.
 
